@@ -1,7 +1,5 @@
 import Head from "next/head";
 
-import styles from "../styles/home.module.scss";
-
 export default function Home() {
   return (
     <>
@@ -9,7 +7,7 @@ export default function Home() {
         {/*Componente react que anexa dados ao head do _document. Importante para SEO*/}
         <title>Inicio | Ig.News</title>
       </Head>
-      <h1 className={styles.title}>Hello World</h1>
+      <h1>Hello World</h1>
     </>
   );
 }
